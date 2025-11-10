@@ -23,5 +23,5 @@ Users can search any city or use their current location to view the next 24 hour
 
 ## Installation
 1. Clone the repo:
-   git clone
+   git clone: https://github.com/jyKnot/mobile_weather_app
 

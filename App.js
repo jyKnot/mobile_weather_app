@@ -5,8 +5,9 @@ import {
   View,
   ScrollView,
   ActivityIndicator,
-  SafeAreaView,
+  // SafeAreaView,
 } from 'react-native';
+import { SafeAreaView } from 'react-native-safe-area-context';
 import { StatusBar } from 'expo-status-bar';
 import useFetchWeather from './hooks/useFetchWeather';
 import SearchBar from './components/SearchBar';

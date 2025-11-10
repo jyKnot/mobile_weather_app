@@ -10,7 +10,7 @@ import {
   Alert,
 } from "react-native";
 import * as Location from "expo-location";
-import { Ionicons } from "@expo/vector-icons"; // Icon library included with Expo
+import { Ionicons } from "@expo/vector-icons"; // icon library included with Expo
 
 const API_KEY = process.env.EXPO_PUBLIC_OPENWEATHER_API_KEY;
 

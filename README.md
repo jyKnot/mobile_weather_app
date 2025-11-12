@@ -3,7 +3,6 @@
 A mobile-first weather forecasting app built with React Native.  
 Users can search any city or use their current location to view the next 24 hour forecast.
 
-
 ## Features
 - Search bar 
 - Current temperature, humidity, wind, and condition
@@ -12,14 +11,10 @@ Users can search any city or use their current location to view the next 24 hour
 - Built with modular components and custom hook (`useFetchWeather`)
 - Dark-themed UI for comfortable viewing
 
-
-
 ## 🛠️ Tech Stack
 - React Native (Expo)
 - OpenWeather API
 - Custom React Hooks
-
-
 
 ## Installation
 1. Clone the repo:

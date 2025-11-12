@@ -31,7 +31,7 @@ export default function App() {
 
   const { data, loading, error } = useFetchWeather(url);
 
-  // Choose layout based on whether a city is selected
+  // choose layout based on whether a city is selected
   const isFrontPage = !place && !loading && !error;
 
   return (
@@ -41,7 +41,7 @@ export default function App() {
         style={styles.scroll}
         contentContainerStyle={[
           styles.scrollContent,
-          isFrontPage ? styles.centered : styles.topAligned, // 👈 dynamic layout
+          isFrontPage ? styles.centered : styles.topAligned, 
         ]}
         showsVerticalScrollIndicator={false}
       >
